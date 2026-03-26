@@ -1,0 +1,29 @@
+# Gold Tier Dependencies
+# AI Employee Hackathon 2026
+
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Odoo Integration
+# (No additional deps - uses standard library)
+
+# Facebook/Instagram Integration
+facebook-business>=19.0.0
+playwright>=1.40.0  # Optional, for browser automation
+
+# Twitter Integration
+tweepy>=4.14.0
+
+# Audit Logging
+# (No additional deps - uses standard library)
+
+# Error Recovery
+# (No additional deps - uses standard library)
+
+# Ralph Wiggum Loop
+# (No additional deps - uses standard library)
+
+# Development
+pytest>=7.4.0
+pytest-cov>=4.1.0

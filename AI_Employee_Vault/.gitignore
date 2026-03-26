@@ -1,0 +1,72 @@
+# AI Employee Vault - Git Ignore
+
+## Secrets and Credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+service_account.json
+tokens/
+sessions/
+
+## Logs
+Logs/*.log
+Logs/*.json
+*.log
+
+## Temporary Files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+## IDE
+.vscode/
+.idea/
+*.sublime-*
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+## Virtual Environment
+venv/
+ENV/
+env/
+
+## Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+## Vault State (optional - choose what to sync)
+# Uncomment if you don't want to sync these via Git
+
+# Needs_Action/
+# Pending_Approval/
+# In_Progress/
+
+## Sensitive Folders (never sync)
+Accounting/private/
+Personal/

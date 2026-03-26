@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  odoo:
+    image: odoo:latest
+    container_name: ai_employee_odoo
+    ports:
+      - "8069:8069"
+    environment:
+      - ODOO_ADMIN_PASSWORD=admin
+      - ODOO_DB=odoo
+    volumes:
+      - odoo-data:/var/lib/odoo
+      - ./odoo-config:/etc/odoo
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: postgres:15
+    container_name: ai_employee_odoo_db
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  odoo-data:
+  postgres-data:
