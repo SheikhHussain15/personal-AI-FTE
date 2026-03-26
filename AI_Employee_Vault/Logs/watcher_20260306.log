@@ -1,0 +1,436 @@
+2026-03-06 01:12:24,223 - LinkedInWatcher - INFO - LinkedInWatcher initialized
+2026-03-06 01:12:24,226 - LinkedInWatcher - INFO - Vault path: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault
+2026-03-06 01:12:24,226 - LinkedInWatcher - INFO - Check interval: 30s
+2026-03-06 01:12:24,232 - LinkedInWatcher - INFO - Session path: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Scripts\linkedin_session
+2026-03-06 01:12:24,232 - LinkedInWatcher - INFO - Watching: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Approved
+2026-03-06 01:12:24,232 - LinkedInWatcher - INFO - Check interval: 30s
+2026-03-06 01:12:24,235 - LinkedInWatcher - INFO - LinkedIn Watcher ready - will auto-post approved content
+2026-03-06 01:12:24,235 - LinkedInWatcher - INFO - Starting LinkedIn Watcher
+2026-03-06 01:12:24,235 - LinkedInWatcher - INFO - Watching for approved posts every 30 seconds
+2026-03-06 01:12:24,300 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:12:24,348 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:12:24,349 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:12:24,350 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:12:24,350 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:12:47,531 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:12:47,536 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:12:56,094 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:12:56,141 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:13:26,291 - LinkedInWatcher - ERROR - LinkedIn feed not loaded - login may be required
+2026-03-06 01:13:26,303 - LinkedInWatcher - ERROR - Current URL: https://www.linkedin.com/feed/
+2026-03-06 01:13:26,304 - LinkedInWatcher - INFO - Feed not found yet, waiting additional 30 seconds...
+2026-03-06 01:13:56,439 - LinkedInWatcher - INFO - LinkedIn feed loaded!
+2026-03-06 01:13:59,465 - LinkedInWatcher - INFO - Checking for popups/carousels...
+2026-03-06 01:14:11,574 - LinkedInWatcher - INFO - Looking for "Start a post" button...
+2026-03-06 01:14:11,761 - LinkedInWatcher - INFO - Found "Start a post" via locator
+2026-03-06 01:14:11,762 - LinkedInWatcher - INFO - Clicking "Start a post" button...
+2026-03-06 01:14:12,471 - LinkedInWatcher - INFO - Click sent, waiting for dialog...
+2026-03-06 01:14:17,784 - LinkedInWatcher - INFO - Dialog not detected, trying alternative click...
+2026-03-06 01:14:22,832 - LinkedInWatcher - INFO - Looking for text area in dialog...
+2026-03-06 01:14:22,873 - LinkedInWatcher - INFO - Found text area with: div[contenteditable="true"]
+2026-03-06 01:14:22,874 - LinkedInWatcher - INFO - Focusing post text area...
+2026-03-06 01:14:25,044 - LinkedInWatcher - INFO - Typing post content...
+2026-03-06 01:14:27,539 - LinkedInWatcher - INFO - Content entered via fill
+2026-03-06 01:14:30,564 - LinkedInWatcher - INFO - Looking for Post button...
+2026-03-06 01:14:30,596 - LinkedInWatcher - INFO - Found Post button with: button:has-text("Post")
+2026-03-06 01:14:30,598 - LinkedInWatcher - INFO - Clicking Post button...
+2026-03-06 01:14:40,621 - LinkedInWatcher - INFO - Normal click failed: ElementHandle.click: Timeout 10000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    16 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-03-06 01:14:40,627 - LinkedInWatcher - INFO - Trying force click...
+2026-03-06 01:14:40,647 - LinkedInWatcher - INFO - Force click failed: ElementHandle.click: Element is not visible
+Call log:
+  - attempting click action
+    - scrolling into view if needed
+
+2026-03-06 01:14:40,648 - LinkedInWatcher - INFO - Using JavaScript click...
+2026-03-06 01:14:40,658 - LinkedInWatcher - INFO - Post button clicked, waiting for confirmation...
+2026-03-06 01:14:49,516 - LinkedInWatcher - INFO - Screenshot saved: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Logs\linkedin_20260306_011448.png
+2026-03-06 01:14:49,647 - LinkedInWatcher - WARNING - Dialog still open - post may not have been submitted!
+2026-03-06 01:14:49,648 - LinkedInWatcher - WARNING - LinkedIn may require manual confirmation for the final post.
+2026-03-06 01:14:52,509 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:14:52,510 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:15:22,530 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:15:22,538 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:15:22,540 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:15:22,543 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:15:22,544 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:15:34,759 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:15:34,762 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:15:41,904 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:15:41,921 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:15:44,004 - LinkedInWatcher - INFO - Page loaded, waiting for feed element...
+2026-03-06 01:16:14,328 - LinkedInWatcher - ERROR - LinkedIn feed not loaded - login may be required
+2026-03-06 01:16:14,345 - LinkedInWatcher - ERROR - Current URL: https://www.linkedin.com/feed/
+2026-03-06 01:16:14,359 - LinkedInWatcher - INFO - Feed not found yet, waiting additional 30 seconds...
+2026-03-06 01:16:44,503 - LinkedInWatcher - INFO - LinkedIn feed loaded!
+2026-03-06 01:16:47,530 - LinkedInWatcher - INFO - Checking for popups/carousels...
+2026-03-06 01:16:59,702 - LinkedInWatcher - INFO - Looking for "Start a post" button...
+2026-03-06 01:16:59,838 - LinkedInWatcher - INFO - Found "Start a post" via locator
+2026-03-06 01:16:59,841 - LinkedInWatcher - INFO - Clicking "Start a post" button...
+2026-03-06 01:17:00,972 - LinkedInWatcher - INFO - Click sent, waiting for dialog...
+2026-03-06 01:17:06,152 - LinkedInWatcher - INFO - Dialog not detected, trying alternative click...
+2026-03-06 01:17:11,236 - LinkedInWatcher - INFO - Looking for text area in dialog...
+2026-03-06 01:17:11,405 - LinkedInWatcher - INFO - Found text area with: div[contenteditable="true"]
+2026-03-06 01:17:11,408 - LinkedInWatcher - INFO - Focusing post text area...
+2026-03-06 01:17:13,823 - LinkedInWatcher - INFO - Typing post content...
+2026-03-06 01:17:15,417 - LinkedInWatcher - INFO - Content entered via fill
+2026-03-06 01:17:18,451 - LinkedInWatcher - INFO - Looking for Post button...
+2026-03-06 01:17:18,809 - LinkedInWatcher - INFO - Found Post button with: button:has-text("Post")
+2026-03-06 01:17:18,812 - LinkedInWatcher - INFO - Clicking Post button...
+2026-03-06 01:17:28,834 - LinkedInWatcher - INFO - Normal click failed: ElementHandle.click: Timeout 10000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    16 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-03-06 01:17:28,841 - LinkedInWatcher - INFO - Trying force click...
+2026-03-06 01:17:28,889 - LinkedInWatcher - INFO - Force click failed: ElementHandle.click: Element is not visible
+Call log:
+  - attempting click action
+    - scrolling into view if needed
+
+2026-03-06 01:17:28,890 - LinkedInWatcher - INFO - Using JavaScript click...
+2026-03-06 01:17:28,913 - LinkedInWatcher - INFO - Post button clicked, waiting for confirmation...
+2026-03-06 01:17:37,860 - LinkedInWatcher - INFO - Screenshot saved: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Logs\linkedin_20260306_011736.png
+2026-03-06 01:17:37,929 - LinkedInWatcher - WARNING - Dialog still open - post may not have been submitted!
+2026-03-06 01:17:37,931 - LinkedInWatcher - WARNING - LinkedIn may require manual confirmation for the final post.
+2026-03-06 01:17:41,229 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:17:41,233 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:18:11,252 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:18:11,267 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:18:11,272 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:18:11,273 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:18:11,275 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:18:20,938 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:18:20,944 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:18:27,852 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:18:27,864 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:18:28,861 - LinkedInWatcher - INFO - Page loaded, waiting for feed element...
+2026-03-06 01:18:59,115 - LinkedInWatcher - ERROR - LinkedIn feed not loaded - login may be required
+2026-03-06 01:18:59,116 - LinkedInWatcher - ERROR - Current URL: https://www.linkedin.com/feed/
+2026-03-06 01:18:59,119 - LinkedInWatcher - INFO - Feed not found yet, waiting additional 30 seconds...
+2026-03-06 01:19:29,207 - LinkedInWatcher - INFO - LinkedIn feed loaded!
+2026-03-06 01:19:32,234 - LinkedInWatcher - INFO - Checking for popups/carousels...
+2026-03-06 01:19:44,305 - LinkedInWatcher - INFO - Looking for "Start a post" button...
+2026-03-06 01:19:44,397 - LinkedInWatcher - INFO - Found "Start a post" via locator
+2026-03-06 01:19:44,398 - LinkedInWatcher - INFO - Clicking "Start a post" button...
+2026-03-06 01:19:45,104 - LinkedInWatcher - INFO - Click sent, waiting for dialog...
+2026-03-06 01:19:50,307 - LinkedInWatcher - INFO - Dialog not detected, trying alternative click...
+2026-03-06 01:19:55,346 - LinkedInWatcher - INFO - Looking for text area in dialog...
+2026-03-06 01:19:55,389 - LinkedInWatcher - INFO - Found text area with: div[contenteditable="true"]
+2026-03-06 01:19:55,394 - LinkedInWatcher - INFO - Focusing post text area...
+2026-03-06 01:19:57,531 - LinkedInWatcher - INFO - Typing post content...
+2026-03-06 01:19:59,527 - LinkedInWatcher - INFO - Content entered via fill
+2026-03-06 01:20:02,534 - LinkedInWatcher - INFO - Looking for Post button...
+2026-03-06 01:20:02,576 - LinkedInWatcher - INFO - Found Post button with: button:has-text("Post")
+2026-03-06 01:20:02,579 - LinkedInWatcher - INFO - Clicking Post button...
+2026-03-06 01:20:12,599 - LinkedInWatcher - INFO - Normal click failed: ElementHandle.click: Timeout 10000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-03-06 01:20:12,602 - LinkedInWatcher - INFO - Trying force click...
+2026-03-06 01:20:12,621 - LinkedInWatcher - INFO - Force click failed: ElementHandle.click: Element is not visible
+Call log:
+  - attempting click action
+    - scrolling into view if needed
+
+2026-03-06 01:20:12,621 - LinkedInWatcher - INFO - Using JavaScript click...
+2026-03-06 01:20:12,630 - LinkedInWatcher - INFO - Post button clicked, waiting for confirmation...
+2026-03-06 01:20:21,572 - LinkedInWatcher - INFO - Screenshot saved: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Logs\linkedin_20260306_012020.png
+2026-03-06 01:20:21,592 - LinkedInWatcher - WARNING - Dialog still open - post may not have been submitted!
+2026-03-06 01:20:21,593 - LinkedInWatcher - WARNING - LinkedIn may require manual confirmation for the final post.
+2026-03-06 01:20:24,228 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:20:24,229 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:20:54,240 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:20:54,242 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:20:54,248 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:20:54,249 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:20:54,252 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:20:58,237 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:20:58,241 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:21:02,739 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:21:02,741 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:21:03,424 - LinkedInWatcher - INFO - Page loaded, waiting for feed element...
+2026-03-06 01:21:33,496 - LinkedInWatcher - ERROR - LinkedIn feed not loaded - login may be required
+2026-03-06 01:21:33,497 - LinkedInWatcher - ERROR - Current URL: https://www.linkedin.com/feed/
+2026-03-06 01:21:33,500 - LinkedInWatcher - INFO - Feed not found yet, waiting additional 30 seconds...
+2026-03-06 01:22:03,562 - LinkedInWatcher - INFO - LinkedIn feed loaded!
+2026-03-06 01:22:06,609 - LinkedInWatcher - INFO - Checking for popups/carousels...
+2026-03-06 01:22:18,664 - LinkedInWatcher - INFO - Looking for "Start a post" button...
+2026-03-06 01:22:18,730 - LinkedInWatcher - INFO - Found "Start a post" via locator
+2026-03-06 01:22:18,731 - LinkedInWatcher - INFO - Clicking "Start a post" button...
+2026-03-06 01:22:19,149 - LinkedInWatcher - INFO - Click sent, waiting for dialog...
+2026-03-06 01:22:24,256 - LinkedInWatcher - INFO - Dialog not detected, trying alternative click...
+2026-03-06 01:22:29,291 - LinkedInWatcher - INFO - Looking for text area in dialog...
+2026-03-06 01:22:29,334 - LinkedInWatcher - INFO - Found text area with: div[contenteditable="true"]
+2026-03-06 01:22:29,339 - LinkedInWatcher - INFO - Focusing post text area...
+2026-03-06 01:22:31,492 - LinkedInWatcher - INFO - Typing post content...
+2026-03-06 01:22:33,745 - LinkedInWatcher - INFO - Content entered via fill
+2026-03-06 01:22:36,763 - LinkedInWatcher - INFO - Looking for Post button...
+2026-03-06 01:22:36,818 - LinkedInWatcher - INFO - Found Post button with: button:has-text("Post")
+2026-03-06 01:22:36,826 - LinkedInWatcher - INFO - Clicking Post button...
+2026-03-06 01:22:46,841 - LinkedInWatcher - INFO - Normal click failed: ElementHandle.click: Timeout 10000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-03-06 01:22:46,847 - LinkedInWatcher - INFO - Trying force click...
+2026-03-06 01:22:46,867 - LinkedInWatcher - INFO - Force click failed: ElementHandle.click: Element is not visible
+Call log:
+  - attempting click action
+    - scrolling into view if needed
+
+2026-03-06 01:22:46,870 - LinkedInWatcher - INFO - Using JavaScript click...
+2026-03-06 01:22:46,882 - LinkedInWatcher - INFO - Post button clicked, waiting for confirmation...
+2026-03-06 01:22:55,686 - LinkedInWatcher - INFO - Screenshot saved: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Logs\linkedin_20260306_012254.png
+2026-03-06 01:22:55,705 - LinkedInWatcher - WARNING - Dialog still open - post may not have been submitted!
+2026-03-06 01:22:55,706 - LinkedInWatcher - WARNING - LinkedIn may require manual confirmation for the final post.
+2026-03-06 01:22:58,103 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:22:58,104 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:23:28,109 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:23:28,111 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:23:28,114 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:23:28,115 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:23:28,116 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:23:32,213 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:23:32,215 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:23:39,254 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:23:39,254 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:23:40,090 - LinkedInWatcher - INFO - Page loaded, waiting for feed element...
+2026-03-06 01:23:59,782 - LinkedInWatcher - ERROR - Error posting to LinkedIn: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(".ql-editor[contenteditable=\"true\"]") to be visible
+
+2026-03-06 01:23:59,864 - LinkedInWatcher - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Scripts\linkedin_watcher.py", line 251, in _post_to_linkedin
+    page.wait_for_selector(selector, timeout=5000)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hr773\AppData\Roaming\Python\Python314\site-packages\playwright\sync_api\_generated.py", line 8217, in wait_for_selector
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_selector(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            selector=selector, timeout=timeout, state=state, strict=strict
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\hr773\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\hr773\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hr773\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+        "waitForSelector", self._timeout, locals_to_params(locals())
+    )
+  File "C:\Users\hr773\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hr773\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(".ql-editor[contenteditable=\"true\"]") to be visible
+
+
+2026-03-06 01:23:59,866 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:23:59,870 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:24:29,875 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:24:29,878 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:24:29,883 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:24:29,884 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:24:29,885 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:24:33,272 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:24:33,320 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:24:37,040 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:24:37,043 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:24:37,705 - LinkedInWatcher - INFO - Page loaded, waiting for feed element...
+2026-03-06 01:25:07,892 - LinkedInWatcher - ERROR - LinkedIn feed not loaded - login may be required
+2026-03-06 01:25:07,927 - LinkedInWatcher - ERROR - Current URL: https://www.linkedin.com/feed/
+2026-03-06 01:25:07,935 - LinkedInWatcher - INFO - Feed not found yet, waiting additional 30 seconds...
+2026-03-06 01:25:38,031 - LinkedInWatcher - INFO - LinkedIn feed loaded!
+2026-03-06 01:25:41,074 - LinkedInWatcher - INFO - Checking for popups/carousels...
+2026-03-06 01:25:53,113 - LinkedInWatcher - INFO - Looking for "Start a post" button...
+2026-03-06 01:25:53,173 - LinkedInWatcher - INFO - Found "Start a post" via locator
+2026-03-06 01:25:53,174 - LinkedInWatcher - INFO - Clicking "Start a post" button...
+2026-03-06 01:25:53,237 - LinkedInWatcher - ERROR - Click failed: Locator.click: Element is not visible
+Call log:
+  - waiting for locator("text=Start a post").first
+    - locator resolved to <p class="_513e293b _7b90ef43 _36ed14d5 _4b9430bd _5f870091 _35d441ff _6f5f0050 _518d7a49 ff1bc6ee _8fe31ca0 _3aa78808 _8a652b91 _9ea6f1c0">Start a post</p>
+  - attempting click action
+    - scrolling into view if needed
+
+2026-03-06 01:25:58,268 - LinkedInWatcher - INFO - Looking for text area in dialog...
+2026-03-06 01:26:13,329 - LinkedInWatcher - ERROR - Post text area not found in dialog
+2026-03-06 01:26:13,782 - LinkedInWatcher - INFO - Debug screenshot: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Logs\linkedin_debug_dialog_20260306_012613.png
+2026-03-06 01:26:15,225 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:26:15,227 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:26:45,234 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:26:45,236 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:26:45,238 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:26:45,238 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:26:45,239 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:26:50,759 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:26:50,760 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:26:55,018 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:26:55,027 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:26:55,732 - LinkedInWatcher - INFO - Page loaded, waiting for feed element...
+2026-03-06 01:27:25,963 - LinkedInWatcher - ERROR - LinkedIn feed not loaded - login may be required
+2026-03-06 01:27:25,963 - LinkedInWatcher - ERROR - Current URL: https://www.linkedin.com/feed/
+2026-03-06 01:27:25,966 - LinkedInWatcher - INFO - Feed not found yet, waiting additional 30 seconds...
+2026-03-06 01:27:56,034 - LinkedInWatcher - INFO - LinkedIn feed loaded!
+2026-03-06 01:27:59,061 - LinkedInWatcher - INFO - Checking for popups/carousels...
+2026-03-06 01:28:11,111 - LinkedInWatcher - INFO - Looking for "Start a post" button...
+2026-03-06 01:28:11,342 - LinkedInWatcher - INFO - Found "Start a post" via locator
+2026-03-06 01:28:11,343 - LinkedInWatcher - INFO - Clicking "Start a post" button...
+2026-03-06 01:28:13,238 - LinkedInWatcher - INFO - Click sent, waiting for dialog...
+2026-03-06 01:28:18,334 - LinkedInWatcher - INFO - Dialog not detected, trying alternative click...
+2026-03-06 01:28:23,375 - LinkedInWatcher - INFO - Looking for text area in dialog...
+2026-03-06 01:28:23,413 - LinkedInWatcher - INFO - Found text area with: div[contenteditable="true"]
+2026-03-06 01:28:23,413 - LinkedInWatcher - INFO - Focusing post text area...
+2026-03-06 01:28:25,571 - LinkedInWatcher - INFO - Typing post content...
+2026-03-06 01:28:27,609 - LinkedInWatcher - INFO - Content entered via fill
+2026-03-06 01:28:30,622 - LinkedInWatcher - INFO - Looking for Post button...
+2026-03-06 01:28:30,650 - LinkedInWatcher - INFO - Found Post button with: button:has-text("Post")
+2026-03-06 01:28:30,650 - LinkedInWatcher - INFO - Clicking Post button...
+2026-03-06 01:28:40,675 - LinkedInWatcher - INFO - Normal click failed: ElementHandle.click: Timeout 10000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-03-06 01:28:40,679 - LinkedInWatcher - INFO - Trying force click...
+2026-03-06 01:28:40,701 - LinkedInWatcher - INFO - Force click failed: ElementHandle.click: Element is not visible
+Call log:
+  - attempting click action
+    - scrolling into view if needed
+
+2026-03-06 01:28:40,702 - LinkedInWatcher - INFO - Using JavaScript click...
+2026-03-06 01:28:40,710 - LinkedInWatcher - INFO - Post button clicked, waiting for confirmation...
+2026-03-06 01:28:49,207 - LinkedInWatcher - INFO - Screenshot saved: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Logs\linkedin_20260306_012848.png
+2026-03-06 01:28:49,355 - LinkedInWatcher - WARNING - Dialog still open - post may not have been submitted!
+2026-03-06 01:28:49,358 - LinkedInWatcher - WARNING - LinkedIn may require manual confirmation for the final post.
+2026-03-06 01:28:51,458 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:28:51,459 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:29:21,465 - LinkedInWatcher - INFO - Found approved post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:29:21,467 - LinkedInWatcher - INFO - Found 1 post(s) to process
+2026-03-06 01:29:21,471 - LinkedInWatcher - INFO - Posting content from: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:29:21,472 - LinkedInWatcher - INFO - Content length: 2732 characters
+2026-03-06 01:29:21,473 - LinkedInWatcher - INFO - Launching browser...
+2026-03-06 01:29:24,893 - LinkedInWatcher - INFO - Browser launched
+2026-03-06 01:29:24,926 - LinkedInWatcher - INFO - Navigating to LinkedIn...
+2026-03-06 01:29:28,713 - LinkedInWatcher - INFO - Current URL: https://www.linkedin.com/feed
+2026-03-06 01:29:28,731 - LinkedInWatcher - INFO - Waiting for LinkedIn feed to load (up to 60 seconds)...
+2026-03-06 01:29:29,428 - LinkedInWatcher - INFO - Page loaded, waiting for feed element...
+2026-03-06 01:29:59,673 - LinkedInWatcher - ERROR - LinkedIn feed not loaded - login may be required
+2026-03-06 01:29:59,674 - LinkedInWatcher - ERROR - Current URL: https://www.linkedin.com/feed/
+2026-03-06 01:29:59,676 - LinkedInWatcher - INFO - Feed not found yet, waiting additional 30 seconds...
+2026-03-06 01:30:29,809 - LinkedInWatcher - INFO - LinkedIn feed loaded!
+2026-03-06 01:30:32,816 - LinkedInWatcher - INFO - Checking for popups/carousels...
+2026-03-06 01:30:44,871 - LinkedInWatcher - INFO - Looking for "Start a post" button...
+2026-03-06 01:30:44,936 - LinkedInWatcher - INFO - Found "Start a post" via locator
+2026-03-06 01:30:44,936 - LinkedInWatcher - INFO - Clicking "Start a post" button...
+2026-03-06 01:30:45,358 - LinkedInWatcher - INFO - Click sent, waiting for dialog...
+2026-03-06 01:30:50,670 - LinkedInWatcher - INFO - Dialog not detected, trying alternative click...
+2026-03-06 01:30:55,698 - LinkedInWatcher - INFO - Looking for text area in dialog...
+2026-03-06 01:30:55,726 - LinkedInWatcher - INFO - Found text area with: div[contenteditable="true"]
+2026-03-06 01:30:55,727 - LinkedInWatcher - INFO - Focusing post text area...
+2026-03-06 01:30:57,844 - LinkedInWatcher - INFO - Typing post content...
+2026-03-06 01:30:59,428 - LinkedInWatcher - INFO - Content entered via fill
+2026-03-06 01:31:02,443 - LinkedInWatcher - INFO - Looking for Post button...
+2026-03-06 01:31:02,467 - LinkedInWatcher - INFO - Found Post button with: button:has-text("Post")
+2026-03-06 01:31:02,468 - LinkedInWatcher - INFO - Clicking Post button...
+2026-03-06 01:31:12,517 - LinkedInWatcher - INFO - Normal click failed: ElementHandle.click: Timeout 10000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    17 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-03-06 01:31:12,666 - LinkedInWatcher - INFO - Trying force click...
+2026-03-06 01:31:12,899 - LinkedInWatcher - INFO - Force click failed: ElementHandle.click: Element is not visible
+Call log:
+  - attempting click action
+    - scrolling into view if needed
+
+2026-03-06 01:31:12,900 - LinkedInWatcher - INFO - Using JavaScript click...
+2026-03-06 01:31:12,913 - LinkedInWatcher - INFO - Post button clicked, waiting for confirmation...
+2026-03-06 01:31:21,226 - LinkedInWatcher - INFO - Screenshot saved: C:\Users\hr773\Documents\GitHub\personal-AI-FTE\AI_Employee_Vault\Logs\linkedin_20260306_013120.png
+2026-03-06 01:31:21,241 - LinkedInWatcher - WARNING - Dialog still open - post may not have been submitted!
+2026-03-06 01:31:21,241 - LinkedInWatcher - WARNING - LinkedIn may require manual confirmation for the final post.
+2026-03-06 01:31:22,417 - LinkedInWatcher - ERROR - Failed to post: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:31:22,418 - LinkedInWatcher - ERROR - [FAIL] Failed: LINKEDIN_PROMPT_ENG_DAY1_20260303.md
+2026-03-06 01:31:32,242 - LinkedInWatcher - INFO - LinkedIn Watcher stopped by user
+2026-03-06 01:31:32,243 - LinkedInWatcher - INFO - LinkedIn Watcher shutting down
